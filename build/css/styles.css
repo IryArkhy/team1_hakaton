@@ -81,21 +81,22 @@ h2 {
 
 .footer__background {
   background-color: #222222;
-  padding-top: 42px;
+  padding-top: 2.625rem;
 }
 
 .footer__container {
-  max-width: 205px;
+  position: relative;
+  max-width: 12.8125rem;
   display: flex;
   flex-direction: column;
 }
 
 .footer__container__logo {
-  margin-bottom: 19px;
+  margin-bottom: 1.1875rem;
 }
 
 .footer__adress {
-  margin-bottom: 29px;
+  margin-bottom: 1.8125rem;
 }
 
 .footer__adress__p,
@@ -104,7 +105,7 @@ h2 {
 .footer__contact__mail {
   font-family: 'Ubuntu';
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.786;
   color: #9699a6;
 }
@@ -112,35 +113,35 @@ h2 {
 .footer__contact__mail,
 .footer__contact__tel,
 .footer__adress__p {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .footer__contact {
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
 }
 
 .footer__button__btn {
   width: 100%;
   background-color: #fcae26;
   border: none;
-  padding: 13px 0 13px 0;
-  font-size: 16px;
+  padding: 0.8125rem 0 0.8125rem 0;
+  font-size: 1rem;
   font-family: 'Open Sans';
   color: white;
   font-weight: 700;
-  border-radius: 7px;
-  margin-bottom: 34px;
+  border-radius: 0.4375rem;
+  margin-bottom: 2.125rem;
   cursor: pointer;
 }
 
 .footer__icons {
   display: flex;
-  margin-bottom: 33px;
+  margin-bottom: 2.0625rem;
 }
 
 .footer__icons__icon {
-  width: 37px;
-  height: 37px;
+  width: 2.3125rem;
+  height: 2.3125rem;
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +149,7 @@ h2 {
 
 .footer__icons__telegram,
 .footer__icons__facebook {
-  margin-right: 17px;
+  margin-right: 1.0625rem;
 }
 
 .footer__icons__telegram {
@@ -168,29 +169,49 @@ h2 {
 
 .footer__backgroundTwo {
   background-color: #151515;
-  padding-bottom: 22px;
-  padding-top: 24px;
+  padding-bottom: 1.375rem;
+  padding-top: 1.5rem;
 }
 
 .footer__down__a {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-family: 'Open Sans';
   color: #626263;
   font-weight: 700;
 }
 
-.footer__down__a1,
-.footer__down__a2 {
-  margin-bottom: 9px;
+.footer__down__li {
+  margin-bottom: 0.5625rem;
+}
+
+.footer__click {
+  opacity: 0;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  border-radius: 50%;
+  background: #333333;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 10%;
+  top: -5%;
+}
+
+.footer__click__icons {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  fill: #e9e9e9;
 }
 
 .footer__visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].footer__visually-hidden,
 input[type="radio"].footer__visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -201,8 +222,12 @@ input[type="radio"].footer__visually-hidden {
 }
 
 @media (min-width: 768px) {
+  .footer__click {
+    opacity: 1;
+  }
+
   .footer__container {
-    max-width: 620px;
+    max-width: 38.75rem;
   }
 
   .footer__main {
@@ -212,24 +237,24 @@ input[type="radio"].footer__visually-hidden {
   .footer__adress,
   .footer__contact {
     margin-bottom: 0;
-    margin-right: 50px;
+    margin-right: 3.125rem;
+  }
+
+  .footer__adress__p {
+    margin: 0;
   }
 
   .footer__button {
-    width: 192px;
+    width: 12rem;
   }
 
   .footer__down__list {
     display: flex;
   }
 
-  .footer__down__a {
+  .footer__down__li {
     margin-bottom: 0;
-  }
-
-  .footer__down__a1,
-  .footer__down__a2 {
-    margin-right: 38px;
+    margin-right: 2.375rem;
   }
 
   .footer__icons {
@@ -238,29 +263,41 @@ input[type="radio"].footer__visually-hidden {
 }
 
 @media (min-width: 1200px) {
+  .footer__click {
+    opacity: 1;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    right: 2%;
+    top: 27%;
+  }
+
   .footer__container {
-    max-width: 1200px;
+    max-width: 75rem;
   }
 
   .footer__button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 520px;
+    width: 32.5rem;
   }
 
   .footer__button__btn {
-    width: 192px;
+    width: 12rem;
     margin-bottom: 0;
-    height: 42px;
+    height: 2.625rem;
   }
 
   .footer__adress {
-    margin-right: 144px;
+    margin-right: 9rem;
+  }
+
+  .footer__adress__p {
+    margin: 0;
   }
 
   .footer__contact {
-    margin-right: 160px;
+    margin-right: 10rem;
   }
 
   .footer__icons {
@@ -268,11 +305,10 @@ input[type="radio"].footer__visually-hidden {
   }
 
   .footer__background {
-    padding-bottom: 60px;
+    padding-bottom: 3.75rem;
   }
 
-  .footer__down__a1,
-  .footer__down__a2 {
-    margin-right: 76px;
+  .footer__down__li {
+    margin-right: 4.75rem;
   }
 }
