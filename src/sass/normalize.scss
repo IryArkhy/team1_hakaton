@@ -18,17 +18,16 @@ ul {
   list-style: none;
 }
 
-
 $baseFontSize: 16px;
 
 @function pxToRem($val) {
- $remSize: $val/$baseFontSize;
- @return #{$remSize}rem;
+  $remSize: $val/$baseFontSize;
+  @return #{$remSize}rem;
 }
 
 .container {
-    max-width: pxToRem(1200px);
-    min-width: pxToRem(320px);
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
+  max-width: pxToRem(1200px);
+  min-width: pxToRem(288px);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
