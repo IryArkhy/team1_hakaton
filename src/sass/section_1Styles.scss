@@ -1,0 +1,216 @@
+.container1 {
+  padding: 1.875rem 1.25rem 3.125rem 1.25rem;
+
+  @media (min-width: 768px) {
+    padding: 2.1875rem 4.5rem 3.125rem 4.5rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 2.1875rem 0 3.125rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+.wrap1 {
+
+  @media (min-width: 1200px) {
+    width: 75rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-bottom: 7rem;
+  }
+}
+
+
+// Стилизация information
+
+
+.container1__information {
+  margin: auto;
+  width: 17.5rem;
+
+  @media (min-width: 768px) {
+    width: 38.75rem;
+  }
+
+  @media (min-width: 1200px) {
+    width: 25.25rem;
+    margin: 0;
+    margin-right: 0.9375rem;
+  }
+}
+
+.container1__img {
+  width: 1.25rem;
+  height: 0.9375rem;
+  margin-bottom: 0.5rem;
+
+  @media (min-width: 768px) {
+    margin-left: -1.25rem;
+    margin-bottom: 0;
+    width: 1.75rem;
+    height: 1.375rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: -2.5rem;
+    width: 1.75rem;
+    height: 1.5625rem;
+  }
+}
+
+.container1__text {
+  line-height: 1.5;
+  padding-bottom: 0.9375rem;
+  font-size: 0.875rem;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  color: $grey;
+
+  @media (max-width: 767px) {
+    margin: auto;
+  }
+
+  @media (min-width:768px) {
+    width: 32.5rem;
+    font-size: 1.125rem;
+  }
+
+  @media (min-width: 1200px) {
+    width: 25.125rem;
+  }
+}
+
+.container1__text2 {
+  line-height: 1.5;
+  padding-bottom: 1.375rem;
+  font-size: 0.875rem;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  color: $grey;
+
+  @media (max-width: 767px) {
+    margin: auto;
+  }
+
+  @media (min-width:768px) {
+    width: 29.375rem;
+    font-size: 1.125rem
+  }
+
+  @media (min-width: 1200px) {
+    width: 25.125rem;
+  }
+}
+
+
+// Стилизация изображения
+
+
+.container1__img2 {
+  margin: auto;
+  width: 17.5rem;
+  height: 20rem;
+  margin-bottom: 2.625rem;
+  border-radius: 0.5rem;
+  background: url(../images/img1x.png) no-repeat;
+  background-size: cover;
+
+  @media (min-width: 768px) {
+    width: 38.75rem;
+    margin-bottom: 4.375rem;
+  }
+
+  @media (min-width: 1200px) {
+    width: 34.375rem;
+    margin: 0;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .container1__img2 {
+    background: url(../images/img22@2x.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+
+// Стилизация content1
+
+
+.container1__content1 {
+  margin: auto;
+  width: 17.5rem;
+  height: 14.375rem;
+  display: flex;
+  background-color: $violet;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 1.5625rem 1.125rem 1.75rem 1.125rem;
+
+  @media (min-width: 768px) {
+    width: 38.75rem;
+    height: 11.5rem;
+    border-radius: 0.125rem;
+    text-align: left;
+    flex-wrap: nowrap;
+    padding: 2.625rem 6.25rem 2.625rem 3.125rem;
+    box-shadow: 0.1875rem 0.3125rem 1.125rem 0rem rgba(0, 0, 0, 0.15);
+    vertical-align: top;
+  }
+
+  @media (min-width: 1200px) {
+    width: 75rem;
+    height: 14.25rem;
+    align-items: center;
+    padding: 4.25rem 9.6875rem 4.25rem 3.125rem;
+  }
+}
+
+.container1__line {
+  display: block;
+  width: 3.75rem;
+  height: 0.125rem;
+  margin: auto;
+  margin-bottom: 0.9375rem;
+  background-color: $orange;
+
+  @media (min-width: 768px) {
+    margin: 0;
+    margin-right: 1.25rem;
+    height: 6.25rem;
+    width: 0.125rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 6.25rem;
+    height: 5.5rem;
+  }
+}
+
+.container1__text3 {
+  color: $white;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+
+  @media (min-width: 768px) {
+    line-height: 1.2;
+    font-size: 1.25rem;
+    width: 27.5rem;
+    height: 6.25rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.5625rem;
+    width: 51.25rem;
+  }
+}
