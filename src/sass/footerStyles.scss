@@ -10,7 +10,7 @@
   flex-direction: column;
 }
 
-.footer__container__logo {
+.footer__container-logo {
   margin-bottom: 1.1875rem;
 }
 
@@ -18,10 +18,10 @@
   margin-bottom: 1.8125rem;
 }
 
-.footer__adress__p,
-.footer__contact__tel,
-.footer__contact__tel1,
-.footer__contact__mail {
+.footer__adress-p,
+.footer__contact-tel,
+.footer__contact-tel1,
+.footer__contact-mail {
   font-family: 'Ubuntu';
   font-weight: 400;
   font-size: 0.8125rem;
@@ -29,9 +29,9 @@
   color: rgb(150, 153, 166);
 }
 
-.footer__contact__mail,
-.footer__contact__tel,
-.footer__adress__p {
+.footer__contact-mail,
+.footer__contact-tel,
+.footer__adress-p {
   margin-bottom: 0.75rem;
 }
 
@@ -39,7 +39,7 @@
   margin-bottom: 2.25rem;
 }
 
-.footer__button__btn {
+.footer__button-btn {
   width: 100%;
   background-color: $orange;
   border: none;
@@ -58,7 +58,7 @@
   margin-bottom: 2.0625rem;
 }
 
-.footer__icons__icon {
+.footer__icons-icon {
   width: 2.3125rem;
   height: 2.3125rem;
   border-radius: 50%;
@@ -66,22 +66,22 @@
   background-repeat: no-repeat;
 }
 
-.footer__icons__telegram,
-.footer__icons__facebook {
+.footer__icons--telegram,
+.footer__icons--facebook {
   margin-right: 1.0625rem;
 }
 
-.footer__icons__telegram {
+.footer__icons--telegram {
   background-color: rgb(99, 152, 224);
   background-image: url(../images/footertelegram.png);
 }
 
-.footer__icons__facebook {
+.footer__icons--facebook {
   background-color: rgb(59, 78, 112);
   background-image: url(../images/footerfacebook.png);
 }
 
-.footer__icons__youtube {
+.footer__icons--youtube {
   background-color: rgb(159, 36, 49);
   background-image: url(../images/footeryoutube.png);
 }
@@ -92,14 +92,14 @@
   padding-top: 1.5rem;
 }
 
-.footer__down__a {
+.footer__down-a {
   font-size: 0.6875rem;
   font-family: 'Open Sans';
   color: rgb(98, 98, 99);
   font-weight: 700;
 }
 
-.footer__down__li {
+.footer__down-li {
   margin-bottom: 0.5625rem;
 }
 
@@ -113,12 +113,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   right: 10%;
   top: -5%;
 }
 
-.footer__click__icons {
+.footer__click-icons {
   width: 0.9375rem;
   height: 0.9375rem;
   fill: rgb(233, 233, 233);
@@ -143,7 +143,7 @@
     margin-right: 3.125rem;
   }
 
-  .footer__adress__p {
+  .footer__adress-p {
     margin: 0;
   }
 
@@ -151,11 +151,11 @@
     width: 12rem;
   }
 
-  .footer__down__list {
+  .footer__down-list {
     display: flex;
   }
 
-  .footer__down__li {
+  .footer__down-li {
     margin-bottom: 0;
     margin-right: 2.375rem;
   }
@@ -185,7 +185,7 @@
     width: 32.5rem;
   }
 
-  .footer__button__btn {
+  .footer__button-btn {
     width: 12rem;
     margin-bottom: 0;
     height: 2.625rem;
@@ -195,7 +195,7 @@
     margin-right: 9rem;
   }
 
-  .footer__adress__p {
+  .footer__adress-p {
     margin: 0;
   }
 
@@ -211,7 +211,7 @@
     padding-bottom: 3.75rem;
   }
 
-  .footer__down__li {
+  .footer__down-li {
     margin-right: 4.75rem;
   }
 }
