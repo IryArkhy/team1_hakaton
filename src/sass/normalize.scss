@@ -18,6 +18,7 @@ ul {
   list-style: none;
 }
 
+
 $baseFontSize: 16px;
 
 @function pxToRem($val) {
@@ -31,4 +32,3 @@ $baseFontSize: 16px;
     margin: 0 auto;
     padding: 0 1rem;
   }
-
