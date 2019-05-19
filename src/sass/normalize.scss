@@ -24,9 +24,11 @@ $baseFontSize: 16px;
  $remSize: $val/$baseFontSize;
  @return #{$remSize}rem;
 }
+
 .container {
     max-width: pxToRem(1200px);
     min-width: pxToRem(320px);
     margin: 0 auto;
     padding: 0 1rem;
   }
+
