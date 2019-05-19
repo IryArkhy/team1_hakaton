@@ -91,7 +91,7 @@ h2 {
   flex-direction: column;
 }
 
-.footer__container__logo {
+.footer__container-logo {
   margin-bottom: 1.1875rem;
 }
 
@@ -99,10 +99,10 @@ h2 {
   margin-bottom: 1.8125rem;
 }
 
-.footer__adress__p,
-.footer__contact__tel,
-.footer__contact__tel1,
-.footer__contact__mail {
+.footer__adress-p,
+.footer__contact-tel,
+.footer__contact-tel1,
+.footer__contact-mail {
   font-family: 'Ubuntu';
   font-weight: 400;
   font-size: 0.8125rem;
@@ -110,9 +110,9 @@ h2 {
   color: #9699a6;
 }
 
-.footer__contact__mail,
-.footer__contact__tel,
-.footer__adress__p {
+.footer__contact-mail,
+.footer__contact-tel,
+.footer__adress-p {
   margin-bottom: 0.75rem;
 }
 
@@ -120,7 +120,7 @@ h2 {
   margin-bottom: 2.25rem;
 }
 
-.footer__button__btn {
+.footer__button-btn {
   width: 100%;
   background-color: #fcae26;
   border: none;
@@ -139,7 +139,7 @@ h2 {
   margin-bottom: 2.0625rem;
 }
 
-.footer__icons__icon {
+.footer__icons-icon {
   width: 2.3125rem;
   height: 2.3125rem;
   border-radius: 50%;
@@ -147,22 +147,22 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.footer__icons__telegram,
-.footer__icons__facebook {
+.footer__icons--telegram,
+.footer__icons--facebook {
   margin-right: 1.0625rem;
 }
 
-.footer__icons__telegram {
+.footer__icons--telegram {
   background-color: #6398e0;
   background-image: url(../images/footertelegram.png);
 }
 
-.footer__icons__facebook {
+.footer__icons--facebook {
   background-color: #3b4e70;
   background-image: url(../images/footerfacebook.png);
 }
 
-.footer__icons__youtube {
+.footer__icons--youtube {
   background-color: #9f2431;
   background-image: url(../images/footeryoutube.png);
 }
@@ -173,14 +173,14 @@ h2 {
   padding-top: 1.5rem;
 }
 
-.footer__down__a {
+.footer__down-a {
   font-size: 0.6875rem;
   font-family: 'Open Sans';
   color: #626263;
   font-weight: 700;
 }
 
-.footer__down__li {
+.footer__down-li {
   margin-bottom: 0.5625rem;
 }
 
@@ -194,12 +194,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   right: 10%;
   top: -5%;
 }
 
-.footer__click__icons {
+.footer__click-icons {
   width: 0.9375rem;
   height: 0.9375rem;
   fill: #e9e9e9;
@@ -240,7 +240,7 @@ input[type="radio"].footer__visually-hidden {
     margin-right: 3.125rem;
   }
 
-  .footer__adress__p {
+  .footer__adress-p {
     margin: 0;
   }
 
@@ -248,11 +248,11 @@ input[type="radio"].footer__visually-hidden {
     width: 12rem;
   }
 
-  .footer__down__list {
+  .footer__down-list {
     display: flex;
   }
 
-  .footer__down__li {
+  .footer__down-li {
     margin-bottom: 0;
     margin-right: 2.375rem;
   }
@@ -282,7 +282,7 @@ input[type="radio"].footer__visually-hidden {
     width: 32.5rem;
   }
 
-  .footer__button__btn {
+  .footer__button-btn {
     width: 12rem;
     margin-bottom: 0;
     height: 2.625rem;
@@ -292,7 +292,7 @@ input[type="radio"].footer__visually-hidden {
     margin-right: 9rem;
   }
 
-  .footer__adress__p {
+  .footer__adress-p {
     margin: 0;
   }
 
@@ -308,7 +308,7 @@ input[type="radio"].footer__visually-hidden {
     padding-bottom: 3.75rem;
   }
 
-  .footer__down__li {
+  .footer__down-li {
     margin-right: 4.75rem;
   }
 }
