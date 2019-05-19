@@ -1,111 +1,136 @@
 .footer__background {
   background-color: $black;
-  padding-top: 42px;
+  padding-top: 2.625rem;
+  position: relative;
 }
 
 .footer__container {
-  max-width: 205px;
+  max-width: 12.8125rem;
   display: flex;
   flex-direction: column;
 }
 
-.footer__container__logo {
-  margin-bottom: 19px;
+.footer__container-logo {
+  margin-bottom: 1.1875rem;
 }
 
 .footer__adress {
-  margin-bottom: 29px;
+  margin-bottom: 1.8125rem;
 }
 
-.footer__adress__p,
-.footer__contact__tel,
-.footer__contact__tel1,
-.footer__contact__mail {
+.footer__adress-p,
+.footer__contact-tel,
+.footer__contact-tel1,
+.footer__contact-mail {
   font-family: 'Ubuntu';
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.786;
   color: rgb(150, 153, 166);
 }
 
-.footer__contact__mail,
-.footer__contact__tel,
-.footer__adress__p {
-  margin-bottom: 12px;
+.footer__contact-mail,
+.footer__contact-tel,
+.footer__adress-p {
+  margin-bottom: 0.75rem;
 }
 
 .footer__contact {
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
 }
 
-.footer__button__btn {
+.footer__button-btn {
   width: 100%;
   background-color: $orange;
   border: none;
-  padding: 13px 0 13px 0;
-  font-size: 16px;
+  padding: 0.8125rem 0 0.8125rem 0;
+  font-size: 1rem;
   font-family: 'Open Sans';
   color: $white;
   font-weight: 700;
-  border-radius: 7px;
-  margin-bottom: 34px;
+  border-radius: 0.4375rem;
+  margin-bottom: 2.125rem;
   cursor: pointer;
 }
 
 .footer__icons {
   display: flex;
-  margin-bottom: 33px;
+  margin-bottom: 2.0625rem;
 }
 
-.footer__icons__icon {
-  width: 37px;
-  height: 37px;
+.footer__icons-icon {
+  width: 2.3125rem;
+  height: 2.3125rem;
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.footer__icons__telegram,
-.footer__icons__facebook {
-  margin-right: 17px;
+.footer__icons--telegram,
+.footer__icons--facebook {
+  margin-right: 1.0625rem;
 }
 
-.footer__icons__telegram {
+.footer__icons--telegram {
   background-color: rgb(99, 152, 224);
   background-image: url(../images/footertelegram.png);
 }
 
-.footer__icons__facebook {
+.footer__icons--facebook {
   background-color: rgb(59, 78, 112);
   background-image: url(../images/footerfacebook.png);
 }
 
-.footer__icons__youtube {
+.footer__icons--youtube {
   background-color: rgb(159, 36, 49);
   background-image: url(../images/footeryoutube.png);
 }
 
 .footer__backgroundTwo {
   background-color: rgb(21, 21, 21);
-  padding-bottom: 22px;
-  padding-top: 24px;
+  padding-bottom: 1.375rem;
+  padding-top: 1.5rem;
 }
 
-.footer__down__a {
-  font-size: 11px;
+.footer__down-a {
+  font-size: 0.6875rem;
   font-family: 'Open Sans';
   color: rgb(98, 98, 99);
   font-weight: 700;
 }
 
-.footer__down__a1,
-.footer__down__a2 {
-  margin-bottom: 9px;
+.footer__down-li {
+  margin-bottom: 0.5625rem;
+}
+
+.footer__click {
+  opacity: 0;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  border-radius: 50%;
+  background: rgb(51, 51, 51);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10%;
+  top: -5%;
+}
+
+.footer__click-icons {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  fill: rgb(233, 233, 233);
 }
 
 @media(min-width: 768px) {
+  .footer__click {
+    opacity: 1;
+  }
+
   .footer__container {
-    max-width: 620px;
+    max-width: 38.75rem;
   }
 
   .footer__main {
@@ -115,24 +140,24 @@
   .footer__adress,
   .footer__contact {
     margin-bottom: 0;
-    margin-right: 50px;
+    margin-right: 3.125rem;
+  }
+
+  .footer__adress-p {
+    margin: 0;
   }
 
   .footer__button {
-    width: 192px;
+    width: 12rem;
   }
 
-  .footer__down__list {
+  .footer__down-list {
     display: flex;
   }
 
-  .footer__down__a {
+  .footer__down-li {
     margin-bottom: 0;
-  }
-
-  .footer__down__a1,
-  .footer__down__a2 {
-    margin-right: 38px;
+    margin-right: 2.375rem;
   }
 
   .footer__icons {
@@ -141,29 +166,41 @@
 }
 
 @media(min-width: 1200px) {
+  .footer__click {
+    opacity: 1;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    right: 2%;
+    top: 27%;
+  }
+
   .footer__container {
-    max-width: 1200px;
+    max-width: 75rem;
   }
 
   .footer__button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 520px;
+    width: 32.5rem;
   }
 
-  .footer__button__btn {
-    width: 192px;
+  .footer__button-btn {
+    width: 12rem;
     margin-bottom: 0;
-    height: 42px;
+    height: 2.625rem;
   }
 
   .footer__adress {
-    margin-right: 144px;
+    margin-right: 9rem;
+  }
+
+  .footer__adress-p {
+    margin: 0;
   }
 
   .footer__contact {
-    margin-right: 160px;
+    margin-right: 10rem;
   }
 
   .footer__icons {
@@ -171,12 +208,11 @@
   }
 
   .footer__background {
-    padding-bottom: 60px;
+    padding-bottom: 3.75rem;
   }
 
-  .footer__down__a1,
-  .footer__down__a2 {
-    margin-right: 76px;
+  .footer__down-li {
+    margin-right: 4.75rem;
   }
 }
 
@@ -185,9 +221,9 @@ input[type="checkbox"].footer__visually-hidden,
 input[type="radio"].footer__visually-hidden {
   position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   border: 0;
   padding: 0;
 
