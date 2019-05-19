@@ -45,7 +45,6 @@
   @media (min-width: 1200px) {
     width: 25.25rem;
     margin: 0;
-    margin-right: 0.9375rem;
   }
 }
 
@@ -151,7 +150,6 @@
 .container1__content1 {
   margin: auto;
   width: 17.5rem;
-  height: 14.375rem;
   display: flex;
   background-color: $violet;
   border-radius: 0.5rem;
@@ -161,7 +159,6 @@
 
   @media (min-width: 768px) {
     width: 38.75rem;
-    height: 11.5rem;
     border-radius: 0.125rem;
     text-align: left;
     flex-wrap: nowrap;
@@ -172,7 +169,6 @@
 
   @media (min-width: 1200px) {
     width: 75rem;
-    height: 14.25rem;
     align-items: center;
     padding: 4.25rem 9.6875rem 4.25rem 3.125rem;
   }

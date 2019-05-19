@@ -206,6 +206,10 @@ input:checked~.header__dropdown-content {
   @media (min-width: 768px) {
     padding: 0;
   }
+  @media (min-width: 1200px) {
+    height: 36.25rem;
+  }
+
 }
 
 .header__example {
