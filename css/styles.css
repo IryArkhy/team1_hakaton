@@ -1336,8 +1336,27 @@ input[type="radio"].footer__visually-hidden {
   }
 
   .section3__list-item {
-    width: 16.25rem;
-    flex-basis: 25%;
+    flex-basis: 13.8125rem;
+  }
+
+  .section3__list-item:nth-child(1) {
+    margin-right: 5.5rem;
+  }
+
+  .section3__list-item:nth-child(2) {
+    margin-right: 5.5rem;
+  }
+
+  .section3__list-item:nth-child(3) {
+    margin-right: 5.5rem;
+  }
+
+  .section3__list-item:nth-child(5) {
+    margin-right: 5.5rem;
+  }
+
+  .section3__list-item:nth-child(6) {
+    margin-right: 5.5rem;
   }
 
   .section3__list-item:nth-child(n) {
