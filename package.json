@@ -8,7 +8,8 @@
     "start": "gulp start",
     "build": "gulp build",
     "sprite": "gulp sprite",
-    "images": "gulp images"
+    "images": "gulp images",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -42,5 +43,8 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.2",
     "stylelint": "^9.10.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
