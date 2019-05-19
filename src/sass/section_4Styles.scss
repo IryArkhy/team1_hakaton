@@ -9,6 +9,7 @@
 
 .s4{
     min-width: 320px;
+    padding-bottom: 75px;
 }
 
 .section4_title {
@@ -16,7 +17,7 @@
   height: 30px;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .section4_ico {
@@ -113,6 +114,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
+  color: #464646;
 }
 
 // MEDIA
@@ -125,6 +127,7 @@
     .section4_title {
         width: 620px;
         padding: 0 0 0 0;
+        margin-bottom: 70px;
     }
 
     .section4_ico {
@@ -174,6 +177,8 @@
 @media(min-width:1200px) {
     .s4 {
         min-width: 1200px;
+        padding-bottom: 110px;
+        padding-top: 110px;
     }
 
     .section4_title {
@@ -184,16 +189,16 @@
     .section4_b2,
     .section4_b3,
     .section4_b4 {
-        width: 290px;
-        height: 283px;
+        width: 275px;
+        height: 268px;
     }
 
     .section4_box1,
     .section4_box2,
     .section4_box3,
     .section4_box4 {
-        width: 253px;
-        height: 248px;
+        width: 238px;
+        height: 233px;
     }
 
     .section4_all {
