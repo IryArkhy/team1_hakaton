@@ -1,10 +1,10 @@
 .footer__background {
   background-color: $black;
   padding-top: 2.625rem;
+  position: relative;
 }
 
 .footer__container {
-  position: relative;
   max-width: 12.8125rem;
   display: flex;
   flex-direction: column;
@@ -188,7 +188,6 @@
   .footer__button-btn {
     width: 12rem;
     margin-bottom: 0;
-    height: 2.625rem;
   }
 
   .footer__adress {
