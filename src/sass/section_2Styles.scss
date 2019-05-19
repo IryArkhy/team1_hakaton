@@ -27,7 +27,7 @@
   @media(min-width: 768px) {
     display: flex;
     width: 420px;
-    margin: 20px 20px;
+    margin: 20px 55px;
   }
 
   @media(min-width: 1200px) {
@@ -80,7 +80,7 @@
   margin: 0 auto;
   background-color: $light-grey;
   margin-bottom: 20px;
-  border: 1 solid $light-grey;
+  border: 1px solid $light-grey;
   border-radius: 10px;
 
   @media(min-width: 768px) {
@@ -101,11 +101,41 @@
 .section2_C1,
 .section2_C3 {
   @media(min-width: 768px) {
-    margin-left: 20px;
+    margin-left: 55px;
   }
 
   @media(min-width: 1200px) {
     margin: 0;
+    border-right: 1px dashed #e3e3e4;
+  }
+}
+
+.section2_C1 {
+  @media(min-width: 768px) {
+    border-right: 1px dashed #e3e3e4;
+    border-bottom: 1px dashed #e3e3e4;
+  }
+
+  @media(min-width: 1200px) {
+    border-bottom: none;
+  }
+}
+
+.section2_C4 {
+  @media(min-width: 768px) {
+    border-top: 1px dashed #e3e3e4;
+    border-left: 1px dashed #e3e3e4;
+  }
+
+  @media(min-width: 1200px) {
+    border-top: none;
+    border-left: none;
+  }
+}
+
+.section2_C2 {
+  @media(min-width: 1200px) {
+    border-right: 1px dashed #e3e3e4;
   }
 }
 
@@ -127,7 +157,6 @@
 .section2_cardOne__title,
 .section2_cardOne__txt {
   padding-bottom: 20px;
-  color: $black;
   padding-left: 35px;
   padding-right: 25px;
 
@@ -142,6 +171,7 @@
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   padding-top: 20px;
+  color: $black;
 
   @media(min-width: 768px) {
     font-size: 30px;
@@ -152,6 +182,7 @@
   font-size: 16px;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.5;
+  color: $grey;
 }
 
 .section2_cardOne__Two {
